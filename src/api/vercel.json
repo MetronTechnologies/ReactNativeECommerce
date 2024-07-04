@@ -1,0 +1,11 @@
+{
+  "Version": 2,
+  "builds": [{
+    "src": "controllers/IndexController.js",
+    "use": "@vercel/node"
+  }],
+  "routes": [{
+    "src": "/(.*)",
+    "dest": "/"
+  }]
+}
