@@ -13,10 +13,10 @@ import crypto from "crypto";
 import nodemailer from "nodemailer";
 import cors from "cors";
 import jwt from 'jsonwebtoken';
-import {authController} from "./AuthController.js";
-import {locationController} from "./LocationController.js";
-import {orderController} from "./OrderController.js";
-import {profileController} from "./ProfileController.js";
+import {authController} from "./controllers/AuthController.js";
+import {locationController} from "./controllers/LocationController.js";
+import {orderController} from "./controllers/OrderController.js";
+import {profileController} from "./controllers/ProfileController.js";
 
 
 const app = express();
